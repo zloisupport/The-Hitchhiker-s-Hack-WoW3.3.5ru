@@ -3,6 +3,8 @@ If IniRead($Setting,"Langue","Langue","Erreur") = 0 Then
 $Section="Francais"
 ElseIf IniRead($Setting,"Langue","Langue","Erreur") = 1 Then
 $Section="English"
+ElseIf IniRead($Setting,"Langue","Langue","Erreur") = 2 Then
+$Section="Russian"
 Else
 $Section="Espanol"
 EndIf
